@@ -137,7 +137,13 @@ bench --site your-site.local clear-cache
 bench --site your-site.local import-fixtures --app pharma_rd
 ```
 
-### Step 6 — Restart
+### Step 7 — Import Demo Data (Optional)
+
+```bash
+bench --site your-site.local execute pharma_rd.setup_demo_data.create_demo_data
+```
+
+### Step 8 — Restart
 
 ```bash
 bench restart
