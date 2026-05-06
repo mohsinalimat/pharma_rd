@@ -1,7 +1,8 @@
 {
-  "name": "Pharma R&D",
-  "label": "Pharma R&D",
-  "module": "Pharma R&D",
+  "doctype": "Workspace",
+  "name": "pharma_rd",
+  "label": "pharma_rd",
+  "module": "pharma_rd",
   "icon": "lab",
   "is_standard": 1,
   "public": 1,
@@ -17,7 +18,7 @@
     {"label": "Project Summary Report", "link_to": "Research Project Summary","type": "Report",  "icon": "bar-chart"},
     {"label": "Clinical Trial Status",  "link_to": "Clinical Trial Status",  "type": "Report",  "icon": "bar-chart"}
   ],
-  "content": "[{\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"Pharma R&D\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<h2>Research Management</h2>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Research\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Clinical\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Quality\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<h2>Operations</h2>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Manufacturing\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Regulatory\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<h2>Reports\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Analytics\",\"col\":6}}]",
+  "content": "[{\"type\":\"onboarding\",\"data\":{\"onboarding_name\":\"pharma_rd\",\"col\":12}},{\"type\":\"spacer\",\"data\":{\"col\":12}},{\"type\":\"header\",\"data\":{\"text\":\"<h2>Research Management</h2>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Research\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Clinical\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Quality\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<h2>Operations</h2>\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Manufacturing\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Regulatory\",\"col\":4}},{\"type\":\"card\",\"data\":{\"card_name\":\"Masters\",\"col\":4}},{\"type\":\"header\",\"data\":{\"text\":\"<h2>Reports\",\"col\":12}},{\"type\":\"card\",\"data\":{\"card_name\":\"Analytics\",\"col\":6}}]",
   "links": [
     {
       "label": "Research",

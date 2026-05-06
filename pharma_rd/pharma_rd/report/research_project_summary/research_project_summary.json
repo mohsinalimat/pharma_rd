@@ -1,4 +1,5 @@
 {
+  "doctype": "Report",
   "add_total_row": 0,
   "columns": [],
   "disable_prepared_report": 0,
@@ -8,5 +9,5 @@
   "report_name": "Research Project Summary",
   "report_type": "Script Report",
   "ref_doctype": "Research Project",
-  "module": "Pharma R&D"
+  "module": "pharma_rd"
 }

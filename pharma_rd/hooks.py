@@ -1,5 +1,5 @@
 app_name = "pharma_rd"
-app_title = "pharma_rd"
+app_title = "Pharma RD"
 app_publisher = "Your Company"
 app_description = "Research and Pharma Development Application for Frappe v15+"
 app_email = "admin@yourcompany.com"
