@@ -1,8 +1,8 @@
 [
-  {"doctype": "Role", "role_name": "Pharma Admin",              "desk_access": 1},
-  {"doctype": "Role", "role_name": "Pharma Researcher",         "desk_access": 1},
-  {"doctype": "Role", "role_name": "Clinical Trial Manager",    "desk_access": 1},
-  {"doctype": "Role", "role_name": "QC Analyst",                "desk_access": 1},
-  {"doctype": "Role", "role_name": "Regulatory Affairs Officer","desk_access": 1},
-  {"doctype": "Role", "role_name": "Lab Manager",               "desk_access": 1}
+  {"doctype": "Role", "name": "Pharma Admin",              "role_name": "Pharma Admin",              "desk_access": 1},
+  {"doctype": "Role", "name": "Pharma Researcher",         "role_name": "Pharma Researcher",         "desk_access": 1},
+  {"doctype": "Role", "name": "Clinical Trial Manager",    "role_name": "Clinical Trial Manager",    "desk_access": 1},
+  {"doctype": "Role", "name": "QC Analyst",                "role_name": "QC Analyst",                "desk_access": 1},
+  {"doctype": "Role", "name": "Regulatory Affairs Officer","role_name": "Regulatory Affairs Officer","desk_access": 1},
+  {"doctype": "Role", "name": "Lab Manager",               "role_name": "Lab Manager",               "desk_access": 1}
 ]
