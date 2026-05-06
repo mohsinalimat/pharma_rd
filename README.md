@@ -22,6 +22,19 @@
 
 ---
 
+## Phase 2 Implementation (Completed)
+
+The application has been enhanced with professional-grade scientific modules:
+
+1.  **21 CFR Part 11 Compliance**: Automated Electronic Signatures and audit trails in QC & Manufacturing.
+2.  **Lab Inventory**: Tracking for reagents, chemicals, and lab stock entries.
+3.  **DMS (RD Document)**: Full SOP/Protocol version control and lifecycle management.
+4.  **LIMS (Lab Sample)**: Advanced sample tracking with storage and quantity management.
+5.  **Vendor Management**: Tracking for CROs and CDMOs with quality ratings.
+6.  **Advanced Budgeting**: Detailed expense breakdown within Research Projects.
+
+---
+
 ## Overview
 
 **pharma_rd** is a production-ready Frappe v15+ custom application for Research & Pharmaceutical Development organisations. It provides end-to-end lifecycle management from early drug discovery through regulatory approval.
@@ -30,14 +43,15 @@
 
 | Domain | Features |
 |---|---|
-| Research | Project management, milestones, team tracking, budget |
+| Research | Project management, milestones, team tracking, **advanced budget breakdown** |
 | Drug Discovery | Compound tracking, Lipinski analysis, target biology |
 | Clinical Operations | Trial management, site tracking, enrollment, SAEs |
-| Manufacturing | Batch manufacturing records, formula, process steps |
-| Quality Control | Test management, OOS alerts, pass/fail tracking |
+| Manufacturing | Batch manufacturing records, formula, process steps, **21 CFR Part 11 Electronic Signatures** |
+| Quality Control | Test management, OOS alerts, pass/fail tracking, **audit trail logging** |
 | Stability | ICH-compliant stability study and timepoint management |
 | Regulatory Affairs | Multi-agency submission tracking, correspondence log |
-| Lab Operations | Equipment calibration tracking, qualification status |
+| Lab Operations | Equipment calibration tracking, **inventory management (reagents/chemicals)** |
+| DMS / LIMS | **SOP versioning (RD Document)**, **Sample tracking (Lab Sample)**, **Partner management** |
 
 ---
 
@@ -65,6 +79,11 @@ frappe-bench/
             │   ├── stability_study/
             │   ├── regulatory_submission/
             │   ├── lab_equipment/
+            │   ├── lab_item/
+            │   ├── lab_stock_entry/
+            │   ├── rd_document/
+            │   ├── lab_sample/
+            │   ├── research_partner/
             │   ├── biological_target/
             │   ├── therapeutic_area/
             │   └── [child doctypes]/
