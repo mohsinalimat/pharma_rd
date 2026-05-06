@@ -1,4 +1,4 @@
-# Pharma R&D — ERPNext v15+ Application
+# Pharma R&D — Frappe v15+ Application
 ## Complete Technical Documentation
 
 ---
@@ -24,7 +24,7 @@
 
 ## Overview
 
-**pharma_rd** is a production-ready Frappe/ERPNext v15+ custom application for Research & Pharmaceutical Development organisations. It provides end-to-end lifecycle management from early drug discovery through regulatory approval.
+**pharma_rd** is a production-ready Frappe v15+ custom application for Research & Pharmaceutical Development organisations. It provides end-to-end lifecycle management from early drug discovery through regulatory approval.
 
 ### Core Capabilities
 
@@ -98,7 +98,6 @@ frappe-bench/
 | Requirement | Version |
 |---|---|
 | Frappe Framework | v15.x |
-| ERPNext | v15.x |
 | Python | 3.10+ |
 | Node.js | 18+ |
 | MariaDB | 10.6+ |
@@ -683,5 +682,5 @@ tail -f ~/frappe-bench/logs/worker.log         # Background worker logs
 
 ---
 
-*pharma_rd v0.0.1 — Built for ERPNext v15+ / Frappe Framework v15+*
+*pharma_rd v0.0.1 — Built for Frappe Framework v15+*
 *License: MIT | Module: Pharma R&D*

@@ -1,7 +1,7 @@
 app_name = "pharma_rd"
 app_title = "Pharma R&D"
 app_publisher = "Your Company"
-app_description = "Research and Pharmaceutical Development Management for ERPNext v15+"
+app_description = "Research and Pharma Development Application for Frappe v15+"
 app_email = "admin@yourcompany.com"
 app_license = "MIT"
 app_version = "0.0.1"

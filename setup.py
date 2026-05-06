@@ -6,7 +6,7 @@ with open("requirements.txt") as f:
 setup(
     name="pharma_rd",
     version="0.0.1",
-    description="Research and Pharma Development Application for ERPNext v15+",
+    description="Research and Pharma Development Application for Frappe v15+",
     author="Your Company",
     author_email="admin@yourcompany.com",
     packages=find_packages(),

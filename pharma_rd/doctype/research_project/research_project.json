@@ -26,7 +26,7 @@
     {"fieldname": "section_team",    "fieldtype": "Section Break", "label": "Team & Budget"},
     {"fieldname": "principal_investigator", "fieldtype": "Link",  "label": "Principal Investigator", "options": "User", "reqd": 1},
     {"fieldname": "project_manager",        "fieldtype": "Link",  "label": "Project Manager",        "options": "User"},
-    {"fieldname": "department",             "fieldtype": "Link",  "label": "Department",             "options": "Department"},
+    {"fieldname": "department",             "fieldtype": "Data",  "label": "Department"},
     {"fieldname": "col3",                   "fieldtype": "Column Break"},
     {"fieldname": "start_date",  "fieldtype": "Date",    "label": "Start Date",  "reqd": 1},
     {"fieldname": "end_date",    "fieldtype": "Date",    "label": "Target End Date"},
