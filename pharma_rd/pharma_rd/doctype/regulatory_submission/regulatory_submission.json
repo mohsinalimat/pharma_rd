@@ -2,6 +2,7 @@
   "name": "Regulatory Submission",
   "module": "pharma_rd",
   "doctype": "DocType",
+  "autoname": "field:submission_id",
   "is_submittable": 1,
   "track_changes": 1,
   "title_field": "submission_id",

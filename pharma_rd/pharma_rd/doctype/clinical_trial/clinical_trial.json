@@ -2,6 +2,7 @@
   "name": "Clinical Trial",
   "module": "pharma_rd",
   "doctype": "DocType",
+  "autoname": "field:trial_id",
   "is_submittable": 1,
   "track_changes": 1,
   "title_field": "trial_title",

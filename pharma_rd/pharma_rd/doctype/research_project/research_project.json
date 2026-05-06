@@ -2,6 +2,7 @@
   "name": "Research Project",
   "module": "pharma_rd",
   "doctype": "DocType",
+  "autoname": "field:project_code",
   "is_submittable": 1,
   "track_changes": 1,
   "title_field": "project_title",

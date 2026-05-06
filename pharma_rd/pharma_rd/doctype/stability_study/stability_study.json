@@ -2,6 +2,7 @@
   "name": "Stability Study",
   "module": "pharma_rd",
   "doctype": "DocType",
+  "autoname": "field:study_id",
   "is_submittable": 1,
   "track_changes": 1,
   "title_field": "study_id",

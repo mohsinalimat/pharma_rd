@@ -2,6 +2,7 @@
   "name": "Biological Target",
   "module": "pharma_rd",
   "doctype": "DocType",
+  "autoname": "field:target_id",
   "title_field": "target_name",
   "fields": [
     {"fieldname": "target_id",    "fieldtype": "Data",    "label": "Target ID",        "reqd": 1, "unique": 1, "in_list_view": 1},

@@ -2,6 +2,7 @@
   "name": "Lab Equipment",
   "module": "pharma_rd",
   "doctype": "DocType",
+  "autoname": "field:equipment_id",
   "track_changes": 1,
   "title_field": "equipment_name",
   "fields": [

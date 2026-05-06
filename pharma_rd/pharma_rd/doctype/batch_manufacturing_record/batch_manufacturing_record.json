@@ -2,6 +2,7 @@
   "name": "Batch Manufacturing Record",
   "module": "pharma_rd",
   "doctype": "DocType",
+  "autoname": "field:batch_no",
   "is_submittable": 1,
   "track_changes": 1,
   "title_field": "batch_no",
