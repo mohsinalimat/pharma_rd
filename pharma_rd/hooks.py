@@ -7,8 +7,8 @@ app_license = "MIT"
 app_version = "0.0.1"
 
 # ------ App include files -------
-app_include_css = "/assets/pharma_rd/css/pharma_rd.css"
-app_include_js  = "/assets/pharma_rd/js/pharma_rd.js"
+# app_include_css = "/assets/pharma_rd/css/pharma_rd.css"
+# app_include_js  = "/assets/pharma_rd/js/pharma_rd.js"
 
 # ------ DocType class overrides -------
 override_doctype_class = {}
