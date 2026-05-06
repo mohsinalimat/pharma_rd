@@ -1,0 +1,32 @@
+{
+  "name": "Research Partner",
+  "module": "pharma_rd",
+  "doctype": "DocType",
+  "autoname": "field:partner_name",
+  "fields": [
+    {"fieldname": "partner_name",   "fieldtype": "Data",    "label": "Partner Name",      "reqd": 1, "unique": 1, "in_list_view": 1},
+    {"fieldname": "partner_type",   "fieldtype": "Select",  "label": "Partner Type",
+      "options": "CRO\nCDMO\nTesting Lab\nConsultant\nUniversity\nAPI Vendor\nLogistics", "reqd": 1, "in_list_view": 1},
+    {"fieldname": "col1",           "fieldtype": "Column Break"},
+    {"fieldname": "rating",         "fieldtype": "Select",  "label": "Quality Rating",
+      "options": "A (Excellent)\nB (Good)\nC (Average)\nD (Conditional)\nF (Blacklisted)", "default": "B (Good)"},
+    {"fieldname": "status",         "fieldtype": "Select",  "label": "Status",
+      "options": "Active\nInactive\nUnder Evaluation", "default": "Active", "in_list_view": 1},
+    {"fieldname": "section_contact", "fieldtype": "Section Break", "label": "Contact Info"},
+    {"fieldname": "contact_person",  "fieldtype": "Data",    "label": "Contact Person"},
+    {"fieldname": "email",           "fieldtype": "Data",    "label": "Email"},
+    {"fieldname": "website",         "fieldtype": "Data",    "label": "Website"},
+    {"fieldname": "col2",           "fieldtype": "Column Break"},
+    {"fieldname": "phone",           "fieldtype": "Data",    "label": "Phone"},
+    {"fieldname": "address",         "fieldtype": "Small Text","label": "Address"},
+    {"fieldname": "section_capabilities", "fieldtype": "Section Break", "label": "Capabilities"},
+    {"fieldname": "capabilities",    "fieldtype": "Text Editor","label": "Scientific Capabilities & SOPs"},
+    {"fieldname": "section_docs",    "fieldtype": "Section Break", "label": "Compliance Documents"},
+    {"fieldname": "gxp_certified",   "fieldtype": "Check",   "label": "GxP Certified"},
+    {"fieldname": "last_audit_date", "fieldtype": "Date",    "label": "Last Audit Date"}
+  ],
+  "permissions": [
+    {"role": "Pharma Admin", "read": 1, "write": 1, "create": 1, "delete": 1},
+    {"role": "Lab Manager",  "read": 1, "write": 1}
+  ]
+}

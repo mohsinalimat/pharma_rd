@@ -1,0 +1,34 @@
+{
+  "name": "Lab Sample",
+  "module": "pharma_rd",
+  "doctype": "DocType",
+  "autoname": "format:SMPL-{project}-{YY}-{####}",
+  "fields": [
+    {"fieldname": "sample_id",      "fieldtype": "Data",    "label": "Sample ID",         "read_only": 1, "in_list_view": 1},
+    {"fieldname": "sample_name",    "fieldtype": "Data",    "label": "Sample Name",       "reqd": 1, "in_list_view": 1},
+    {"fieldname": "project",        "fieldtype": "Link",    "label": "Project",           "options": "Research Project", "reqd": 1, "in_list_view": 1},
+    {"fieldname": "batch",          "fieldtype": "Link",    "label": "Source Batch",      "options": "Batch Manufacturing Record"},
+    {"fieldname": "col1",           "fieldtype": "Column Break"},
+    {"fieldname": "collection_date","fieldtype": "Date",    "label": "Collection Date",   "default": "Today", "reqd": 1},
+    {"fieldname": "sample_type",    "fieldtype": "Select",  "label": "Sample Type",
+      "options": "API\nExcipient\nIntermediate\nFinished Product\nStability Sample\nClinical Sample\nReference Standard\nRetention Sample",
+      "reqd": 1, "in_list_view": 1},
+    {"fieldname": "status",         "fieldtype": "Select",  "label": "Status",
+      "options": "Active\nUsed\nDestroyed\nExpired\nLost",    "default": "Active", "in_list_view": 1},
+    {"fieldname": "section_storage", "fieldtype": "Section Break", "label": "Storage Information"},
+    {"fieldname": "storage_location","fieldtype": "Data",    "label": "Storage Location (Room/Fridge/Shelf)"},
+    {"fieldname": "temperature_req", "fieldtype": "Data",    "label": "Temperature Req"},
+    {"fieldname": "quantity",       "fieldtype": "Float",   "label": "Quantity Remaining"},
+    {"fieldname": "uom",            "fieldtype": "Data",    "label": "UOM"},
+    {"fieldname": "col2",           "fieldtype": "Column Break"},
+    {"fieldname": "is_hazardous",   "fieldtype": "Check",   "label": "Hazardous Material"},
+    {"fieldname": "expiry_date",    "fieldtype": "Date",    "label": "Expiry Date"},
+    {"fieldname": "section_notes",  "fieldtype": "Section Break", "label": "Notes"},
+    {"fieldname": "description",    "fieldtype": "Small Text","label": "Sample Description"}
+  ],
+  "permissions": [
+    {"role": "Pharma Admin", "read": 1, "write": 1, "create": 1, "delete": 1},
+    {"role": "Pharma Researcher", "read": 1, "write": 1, "create": 1},
+    {"role": "QC Analyst", "read": 1, "write": 1}
+  ]
+}
