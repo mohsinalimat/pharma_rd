@@ -1,12 +1,12 @@
 [
-  {"doctype": "Therapeutic Area", "area_name": "Oncology",          "description": "Cancer and tumor treatments"},
-  {"doctype": "Therapeutic Area", "area_name": "Cardiology",        "description": "Heart and cardiovascular diseases"},
-  {"doctype": "Therapeutic Area", "area_name": "Neurology",         "description": "Neurological and CNS disorders"},
-  {"doctype": "Therapeutic Area", "area_name": "Immunology",        "description": "Immune system disorders and autoimmune diseases"},
-  {"doctype": "Therapeutic Area", "area_name": "Infectious Disease","description": "Bacterial, viral and parasitic infections"},
-  {"doctype": "Therapeutic Area", "area_name": "Metabolic Disease", "description": "Diabetes, obesity and metabolic disorders"},
-  {"doctype": "Therapeutic Area", "area_name": "Respiratory",       "description": "Lung and respiratory diseases"},
-  {"doctype": "Therapeutic Area", "area_name": "Rare Disease",      "description": "Orphan diseases and rare conditions"},
-  {"doctype": "Therapeutic Area", "area_name": "Ophthalmology",     "description": "Eye diseases and disorders"},
-  {"doctype": "Therapeutic Area", "area_name": "Dermatology",       "description": "Skin disorders"}
+  {"doctype": "Therapeutic Area", "name": "Oncology",           "area_name": "Oncology",          "description": "Cancer and tumor treatments"},
+  {"doctype": "Therapeutic Area", "name": "Cardiology",         "area_name": "Cardiology",        "description": "Heart and cardiovascular diseases"},
+  {"doctype": "Therapeutic Area", "name": "Neurology",          "area_name": "Neurology",         "description": "Neurological and CNS disorders"},
+  {"doctype": "Therapeutic Area", "name": "Immunology",         "area_name": "Immunology",        "description": "Immune system disorders and autoimmune diseases"},
+  {"doctype": "Therapeutic Area", "name": "Infectious Disease", "area_name": "Infectious Disease","description": "Bacterial, viral and parasitic infections"},
+  {"doctype": "Therapeutic Area", "name": "Metabolic Disease",  "area_name": "Metabolic Disease", "description": "Diabetes, obesity and metabolic disorders"},
+  {"doctype": "Therapeutic Area", "name": "Respiratory",        "area_name": "Respiratory",       "description": "Lung and respiratory diseases"},
+  {"doctype": "Therapeutic Area", "name": "Rare Disease",       "area_name": "Rare Disease",      "description": "Orphan diseases and rare conditions"},
+  {"doctype": "Therapeutic Area", "name": "Ophthalmology",      "area_name": "Ophthalmology",     "description": "Eye diseases and disorders"},
+  {"doctype": "Therapeutic Area", "name": "Dermatology",        "area_name": "Dermatology",       "description": "Skin disorders"}
 ]
