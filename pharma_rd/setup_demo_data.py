@@ -88,8 +88,8 @@ def create_demo_data():
                 "start_date": add_days(nowdate(), -180),
                 "budget": 5000000,
                 "milestones": [
-                    {"milestone_name": "Target Validation", "status": "Completed", "target_date": add_days(nowdate(), -150)},
-                    {"milestone_name": "Lead Optimization", "status": "In Progress", "target_date": add_days(nowdate(), 30)}
+                    {"milestone_name": "Target Validation", "status": "Completed", "due_date": add_days(nowdate(), -150)},
+                    {"milestone_name": "Lead Optimization", "status": "In Progress", "due_date": add_days(nowdate(), 30)}
                 ]
             })
             doc.insert()
@@ -167,12 +167,12 @@ def create_demo_data():
                 "expiry_date": add_days(nowdate(), 730),
                 "batch_status": "Pending QC",
                 "batch_formula": [
-                    {"ingredient": "Active Substance", "planned_quantity": b["size"] * 0.1, "unit": "kg"},
-                    {"ingredient": "Excipient A", "planned_quantity": b["size"] * 0.9, "unit": "kg"}
+                    {"ingredient": "Active Substance", "quantity": b["size"] * 0.1, "unit": "kg"},
+                    {"ingredient": "Excipient A", "quantity": b["size"] * 0.9, "unit": "kg"}
                 ],
                 "process_steps": [
-                    {"step_name": "Mixing", "operation": "Mechanical Stirring", "status": "Completed"},
-                    {"step_name": "Filtration", "operation": "Sterile Filter", "status": "Completed"}
+                    {"step_no": 1, "operation": "Mixing", "status": "Completed"},
+                    {"step_no": 2, "operation": "Filtration", "status": "Completed"}
                 ]
             })
             doc.insert()
@@ -211,9 +211,9 @@ def create_demo_data():
             "temperature": "25°C",
             "humidity": "60%RH",
             "timepoints": [
-                {"timepoint_name": "Initial", "target_date": nowdate(), "status": "Completed"},
-                {"timepoint_name": "3 Months", "target_date": add_days(nowdate(), 90), "status": "Scheduled"},
-                {"timepoint_name": "6 Months", "target_date": add_days(nowdate(), 180), "status": "Scheduled"}
+                {"timepoint": "Initial", "target_date": nowdate(), "status": "Completed"},
+                {"timepoint": "3 Months", "target_date": add_days(nowdate(), 90), "status": "Scheduled"},
+                {"timepoint": "6 Months", "target_date": add_days(nowdate(), 180), "status": "Scheduled"}
             ]
         })
         doc.insert()
