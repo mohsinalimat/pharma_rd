@@ -33,6 +33,7 @@ def create_demo_data():
         if not frappe.db.exists("Biological Target", t["name"]):
             frappe.get_doc({
                 "doctype": "Biological Target",
+                "target_id": t["name"],
                 "target_name": t["name"],
                 "target_class": t["class"],
                 "uniprot_id": t["uniprot"]
