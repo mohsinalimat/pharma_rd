@@ -14,18 +14,7 @@ app_version = "0.0.1"
 override_doctype_class = {}
 
 # ------ Document Events -------
-doc_events = {
-    "Research Project": {
-        "on_submit":  "pharma_rd.pharma_rd.doctype.research_project.research_project.on_submit",
-        "on_cancel":  "pharma_rd.pharma_rd.doctype.research_project.research_project.on_cancel",
-    },
-    "Clinical Trial": {
-        "on_submit":  "pharma_rd.pharma_rd.doctype.clinical_trial.clinical_trial.on_submit",
-    },
-    "Batch Manufacturing Record": {
-        "on_submit":  "pharma_rd.pharma_rd.doctype.batch_manufacturing_record.batch_manufacturing_record.on_submit",
-    },
-}
+doc_events = {}
 
 # ------ Scheduled Tasks -------
 scheduler_events = {
